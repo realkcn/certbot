@@ -30,6 +30,7 @@ class PluginEntryPoint(object):
         "certbot-dns-digitalocean",
         "certbot-dns-dnsimple",
         "certbot-dns-dnsmadeeasy",
+        "certbot-dns-dnspod",
         "certbot-dns-gehirn",
         "certbot-dns-google",
         "certbot-dns-linode",
@@ -39,7 +40,6 @@ class PluginEntryPoint(object):
         "certbot-dns-rfc2136",
         "certbot-dns-route53",
         "certbot-dns-sakuracloud",
-        "certbot-dns-dnspod",
         "certbot-nginx",
         "certbot-postfix",
     ]
