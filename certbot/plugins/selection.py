@@ -164,9 +164,9 @@ def choose_plugin(prepared, question):
             return None
 
 noninstaller_plugins = ["webroot", "manual", "standalone", "dns-cloudflare", "dns-cloudxns",
-                        "dns-digitalocean", "dns-dnsimple", "dns-dnsmadeeasy", "dns-dnspod", "dns-gehirn",
-                        "dns-google", "dns-linode", "dns-luadns", "dns-nsone", "dns-ovh",
-                        "dns-rfc2136", "dns-route53", "dns-sakuracloud"]
+                        "dns-digitalocean", "dns-dnsimple", "dns-dnsmadeeasy", "dns-dnspod",
+                        "dns-gehirn", "dns-google", "dns-linode", "dns-luadns", "dns-nsone",
+                        "dns-ovh", "dns-rfc2136", "dns-route53", "dns-sakuracloud"]
 
 def record_chosen_plugins(config, plugins, auth, inst):
     "Update the config entries to reflect the plugins we actually selected."
